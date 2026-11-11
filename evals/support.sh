@@ -1,4 +1,4 @@
-# Evals for the support bot. Build once with sbt stage, then run ./tinyeval.
+# Evals for the support bot. Build once with sbt stage, then run sbt "runMain com.evalship.tinyeval.Main".
 # The worker starts the JVM and the client once, and answers every test case sent to it.
 worker target/stage/bin/support
 
