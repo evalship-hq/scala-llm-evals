@@ -1,5 +1,5 @@
 name := "support"
-scalaVersion := "3.9.0"
+scalaVersion := "3.10.0"
 
 libraryDependencies += "com.anthropic" % "anthropic-java" % "3.6.0"
 libraryDependencies += "com.evalship" % "tinyeval" % "0.11.0"
